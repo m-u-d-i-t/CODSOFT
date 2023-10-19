@@ -1,0 +1,30 @@
+
+body{
+    background-color: #64CCC5;
+}
+h1{
+    color: #04364A;
+    font-family: Arial, sans-serif;   
+}
+.calculator {
+    width: 200px;
+    margin: 0 auto;
+    text-align: center;
+}
+  
+#screen {
+    width: 100%;
+    margin-bottom: 10px;
+}
+  
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px;
+}
+  
+button {
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+}
